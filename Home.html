@@ -1,12 +1,178 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <style>
+        .navbar-brand {
+            color: white;
+        }
+
+        .Content {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        .cards {
+            text-align: center;
+            margin-top: 100px;
+            background-color: gainsboro;
+        }
+
+        .card {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Week 3</title>
 </head>
 <body>
-    Hello World
+    <div class="collapse" id="Toggle">
+        <div class="bg-dark p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h5 class="text-white h4">About</h5>
+                        <span class="text-muted">Kasd nulla sadipscing rebum dolores justo vel ut elitr dolores voluptua amet at est et ipsum ipsum vel erat vero est consequat nonumy augue quis ipsum erat feugiat sed diam amet et molestie dolor velit takimata ut nulla sed vel magna diam labore clita dolor autem suscipit dolor eos erat</span>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="text-white h4">Contact</h5>
+                        <div class="text-white">Follow on Twitter</div>
+                        <div class="text-white">Like on Facebook</div>
+                        <div class="text-white">Email mer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand">Album</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Toggle" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+
+
+    <div class="Content col-md-12">
+        <h1>Album example</h1>
+
+        <h6>Something short and leading about the collection below--its content </h6>
+        <h6>the creator etc. Make it short and sweet,but not too short so folks don't' </h6>
+        <h6>simply skip over it entirely </h6>
+
+        <button class="btn-primary">Main call to action</button>
+        <button class="btn-secondary">Secondary action</button>
+    </div>
+    <div class="cards">
+        <ul>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="photo-1515541324332-7dd0c37426e0.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Odio magna aliquam sadipscing eirmod aliquam takimata et cum dolore dolore feugiat id nonummy duis dolore voluptua at eu sed vero et ipsum erat augue eu justo elitr sed accusam</p>
+                        <a href="#" class="btn btn-primary">Hit me</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
 </body>
 </html>
